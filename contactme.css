@@ -1,0 +1,42 @@
+.home>a {
+    width: 60px;
+  height: 25px;
+  background: #d9d9d9;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+    width: 60px;
+  height: 25px;
+  background: #e10202;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home:hover a {
+    background: #f1f1f1;
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: white;
+    color: #e10202;
+    cursor: pointer;
+    border: 1px solid #e10202;
+}
+
+.contact-header {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
